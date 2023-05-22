@@ -1,0 +1,189 @@
+<!--instructs the browser the html version that is being used-->
+<!DOCTYPE html>
+<!--start of the html document-->
+<html>
+    <!--head section-->
+    <head>
+        <!--the title of the webpage-->
+        <title>JOB APPLICATION FORM</title>
+        <!--an external file of css-->
+        <link rel="stylesheet" href="form.css">
+        <!--the keywords make your website to be found easily by internet users-->
+        <meta name="keywords" content="ho to make a html job application form">
+        <!--gives more details about the webpage-->
+        <meta name="description" content="this page entails the processes and steps on how to make a html job application form">
+        <!--entails the use of all the symbols and characters-->
+        <meta charset="UFT-8">
+        <!--the author of the page-->
+        <meta name="author" content="Pauline Akinyi">
+    </head>
+    <!--the content of the page-->
+    <body>
+        <h2> WEB DEVELOPER APPLICATION FORM</h2>
+        <div class="form">
+            <form>
+                <fieldset>
+                    <h3>Personal Information</h3>
+            <!--caption for the form element-->
+            <!--a text input control-->
+            <input type="text"
+            name="firstname"
+            maxlength="15"
+            minlength="10"
+            placeholder="first name"
+            required>
+            <br>
+            <br>
+            <input type="text"
+            name="middle name"
+            maxlength="15"
+            minlength="10"
+            placeholder="middle name"
+            required>
+            <br>
+            <br>
+            <!-- a text input control-->
+            <input type="text"
+            name="lastname"
+            maxlength="15"
+            minlength="10"
+            placeholder="last name"
+            required>
+            <br>
+            <br>
+            <label>DATE OF BIRTH:</label>
+            <br>
+            <label for="Month">MONTH:</label>
+            <!--a dropdown menu-->
+            <select name="month" id="Month">
+                <option>Month</option>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+            </select>
+            <br>
+            <label for="Day">DAY:</label>
+            <select name="day" id="Day">
+                <option>Day</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+            <br>
+            <label for="Year">YEAR:</label>
+            <select name="year" id="Year">
+                <option>Year</option>
+                <option>1990</option>
+                <option>1991</option>
+                <option>1992</option>
+                <option>1993</option>
+                <option>1994</option>
+                <option>1995</option>
+                <option>1996</option>
+                <option>1997</option>
+                <option>1998</option>
+                <option>1999</option>
+                <option>2000</option>
+                <option>2001</option>
+            </select>
+            <br>
+            <br>
+            <label for="Gender"> WHAT IS YOUR GENDER:</label>
+            <br>
+            <label for="Male">MALE</label>&nbsp;&nbsp
+            <input type="radio" name="gender" id="Male">
+            &nbsp;&nbsp;
+            <label for="Female">FEMALE</label>
+            <input type="radio" name="gender" id="Female">
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+            <h3>Contact Information</h3>
+            <input type="email"
+            name="email address"
+            maxlength="30"
+            pattern="[0-9]{5}[a-z]{15}[A-Z]{5}"
+            placeholder="email address"
+            required>
+            <br>
+            <br>
+            <input type="text"
+            maxlength="10"
+            pattern="[0-9]{10}"
+            placeholder="phone number"
+            required>
+            <br>
+            <br>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <h3>Job Application</h3>
+                <label for="Expertise">THE AREA OF EXPERTISE:</label>
+                <select id="Expertise">
+                    <option>Web development</option>
+                    <option>Front end web development</option>
+                    <option>Back end web development</option>
+                    <option>Full Stack web development</option>
+                    <option>UX Designer</option>
+                    <option>UI Designer</option>
+                    <option>Javascript Developer</option>
+                    <option>HTML/CSS Developer</option>
+                </select>
+                <br>
+                <br>
+                <p class="file">submit your resume according to your area of expertise</p>
+                <label for="File">Upload a file:</label>
+                <br>
+                <input type="file"
+                id="File"
+                name="file upload"
+                accept="pdf, docx, odf">
+            </fieldset>
+            <br>
+            <br>
+            <button type="submit">SUBMIT</button>
+            &nbsp;
+            <button type="reset">CLEAR</button>
+        </form>
+        </div>
+    </body>
+</html>
