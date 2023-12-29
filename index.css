@@ -1,46 +1,57 @@
 .form{
     width: 100%;
     background-color: darkslateblue;
-    margin: auto;
+    margin: 30px auto;
     border-radius: 20px;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
 }
+
 /*h2 styling*/
 h2{
-    color: mediumslateblue;
-    margin: 0 auto;
+    text-align: center;
+    margin: 10px auto;
+    font-family: cursive;
+    font-weight: bolder;
 }
+
 /*h3*/
 h3{
     word-spacing: 5px;
     letter-spacing: 5px;
-    font-family: san-serif;
+    font-family: monospace;
     color: rgb(36, 1, 1);
     font-weight: bold;
 }
+
 /*styling the button and input field*/
 input, button{
     border-radius: 10px;
     padding: 5px;
 }
+
 /*styling the input field for the type text and email*/
 input[type="text"],[type="email"], select{
     width: 100%;
     font-size: 1.15em;
 }
+
 /*when mouse is over the input field*/
 select, input:hover{
     cursor: pointer;
 }
+
 /*body*/
 body{
-    text-align: center;
     background-color: rgb(80, 70, 70);
-    font-size: 1.15em;
 }
+
 /*fieldset*/
 fieldset{
     border-radius: 20px;
 }
+
 /*styling the placeholder*/
 ::placeholder{
     color: blueviolet;
@@ -52,12 +63,14 @@ fieldset{
     transition-timing-function: ease, ease-in, ease-in-out;
     transition-delay: 0s;
 }
+
 input:hover::placeholder{
     color: mediumblue;
     word-spacing: 4px;
     transform: scale(1.5);
     transform: translateX(20px) translateY(-10px);
 }
+
 /*button*/
 button{
     margin: 20px;
@@ -65,8 +78,8 @@ button{
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     letter-spacing: 5px;
 }
+
 button:hover{
     text-shadow: 0 0 20px #fff, 0 0 30px #e01078, 0 0 40px #9c0a53, 0 0 50px #e00c76, 
     0 0 60px #b80b61, 0 0 70px #8f064a, 0 0 80px #9e0552;
-
 }
