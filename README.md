@@ -9,11 +9,11 @@ The [demo](https://pauline-oraro.github.io/Job-Application-Form/)
 # Features
 - Responsive design.
 - HTML FORMS.
-- CSS TRANSISTIONS AND TRANSFORM PROPERTIES.
+- CSS TRANSITIONS AND TRANSFORM PROPERTIES.
 
 # Technologies used
 - HTML
 - CSS.
 
 # Contact
-Feel free to reach me at[hiltrapauline@gmail.com](hiltrapauline@gmail.com)
+Feel free to reach me at [hiltrapauline@gmail.com](hiltrapauline@gmail.com)
